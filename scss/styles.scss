@@ -1,0 +1,286 @@
+body {
+	box-sizing: border-box;
+	font-family: 'Proxima Nova', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 0.2rem;
+}
+
+.header {
+	background-image: url(../source/footer_background.webp);
+	background-repeat: no-repeat;
+	padding: 2rem 0.1rem 2rem 0.1rem;
+
+	&__logotype {
+		text-align: center;
+		color: #ffffff;
+		margin-bottom: 8rem;
+	}
+
+	&__slogans {
+		margin: 0 auto 7rem auto;
+	}
+
+	&__slogan {
+		color: #ffffff;
+		font-size: 32px;
+		font-weight: 700;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 2rem;
+		text-transform: uppercase;
+
+		&_style1 {
+			margin-left: 0.5rem;
+		}
+
+		&_style2 {
+			margin-left: 3.86rem;
+		}
+	}
+
+	&__mobile_app {
+		display: flex;
+		justify-content: space-around;
+		margin: 0 0 2.7rem 0;
+	}
+
+	&__navigation {
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+	}
+
+	&__link {
+		margin: 0 1rem;
+		color: #9071ea;
+		font-size: 0.8rem;
+		font-weight: 300;
+		font-style: normal;
+		line-height: 1.6rem;
+		text-transform: uppercase;
+	}
+}
+
+.fab {
+	color: #ffffff;
+	margin-right: 0.6rem;
+}
+
+.mobile__app {
+	&_logo {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding-left: 0.8rem;
+		width: 8.87em;
+		height: 2.4em;
+		border-radius: 1.2em;
+		background-color: #5e42b0;
+	}
+
+	&_text {
+		color: #ffffff;
+		font-size: 8px;
+		font-weight: 300;
+		font-style: normal;
+		line-height: normal;
+		text-align: left;
+		text-transform: uppercase;
+		letter-spacing: 0.4px;
+		padding-right: 0.7rem;
+	}
+
+	&_link {
+		font-family: "Proxima Nova - Semibold";
+		color: #ffffff;
+		font-size: 8px;
+		font-weight: 700;
+		font-style: normal;
+		line-height: normal;
+		text-align: left;
+		text-transform: uppercase;
+		letter-spacing: 0.4px;
+	}
+}
+
+.game {
+	padding: 1rem 0;
+
+	&__block {
+		&:nth-child(1) {
+			margin-bottom: 1rem;
+		}
+
+		&_title {
+			color: #e7e7e7;
+			font-size: 2rem;
+			font-weight: 700;
+			font-style: normal;
+			letter-spacing: normal;
+			line-height: 3rem;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		&_image {
+			width: 19rem;
+		}
+	}
+
+	&__step:nth-child(2) {
+		background-color: #f5f4f9;
+	}
+
+	&__step:nth-child(3) {
+		background-color: #e05e47;
+	}
+
+	&__step {
+		color: #000000;
+		font-size: 1rem;
+		font-weight: 700;
+		font-style: normal;
+		letter-spacing: normal;
+		line-height: 1.5rem;
+		text-align: center;
+		text-transform: uppercase;
+		border-radius: 0.4rem;
+		padding: 0.4rem 0;
+
+		&_count {
+			width: min-content;
+			border-bottom: 0.125rem solid #5e42b0;
+			margin-left: 45%;
+		}
+	}
+
+	&__substep {
+		&_title {
+			color: #c1c1c1;
+			font-size: 2rem;
+			font-weight: 700;
+			font-style: normal;
+			line-height: 2.5rem;
+			text-transform: uppercase;
+		}
+
+		&_text {
+			font-size: 1rem;
+			font-weight: 400;
+			line-height: 1.2rem;
+		}
+	}
+}
+
+.conclusion {
+	&__image_box {
+		position: relative;
+		margin-bottom: 1.5rem;
+
+		&_style {
+			&_1 {
+				background-image: url(../source/1.webp);
+				background-size: cover;
+				height: 19rem;
+			}
+
+			&_2 {
+				background-image: url(../source/2.webp);
+				background-size: cover;
+				height: 19rem;
+			}
+
+			&_3 {
+				background-image: url(../source/3.webp);
+				background-size: cover;
+				height: 19rem;
+			}
+		}
+	}
+
+	&__mark {
+		width: 4rem;
+		height: 4rem;
+		background-color: #5e42b0;
+		text-align: center;
+		line-height: 4rem;
+		color: #f5f6f7;
+		text-decoration: underline;
+		border-radius: 0.25rem;
+		position: absolute;
+		top: 16rem;
+		left: 1rem;
+
+	}
+
+	&__title {
+		color: #e7e7e7;
+		font-size: 28px;
+		font-weight: 700;
+		font-style: normal;
+		line-height: 34.49px;
+		text-align: left;
+		text-transform: uppercase;
+		line-height: normal;
+		margin-bottom: 1rem;
+	}
+
+	&__text {
+		font-size: 1rem;
+		font-weight: 400;
+		font-style: normal;
+		line-height: 1.2rem;
+		text-align: left;
+		margin-bottom: 1rem;
+	}
+}
+
+.footer {
+	position: relative;
+	background-image: url(../source/Векторный_смарт-объект.webp);
+	padding: 20rem 0 2rem 0;
+
+	&__logo {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, -11rem);
+	}
+
+	&__title {
+		color: #ffffff;
+		font-size: 2rem;
+		font-weight: 700;
+		font-style: normal;
+		line-height: normal;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	&__text {
+		color: #9b8ec1;
+		font-size: 0.9rem;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 0.75px;
+		line-height: normal;
+		margin-bottom: 4.5rem;
+	}
+}
+.social__list{
+	display: flex;
+	justify-content: space-evenly;
+}
