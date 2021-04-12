@@ -2,13 +2,107 @@
 	.container {
 		max-width: 1024px;
 	}
-	.header{
-		&__logotype{
+
+	.header {
+		&__logotype {
 			text-align: left;
 			margin: 0 0 1rem 1.2rem;
 		}
-		&__slogans{
+
+		&__slogans {
 			margin: 0px auto 3rem;
+		}
+	}
+
+	.game {
+		&__block {
+			position: relative;
+
+			&_title {
+				text-align: left;
+				margin: 0 0 0 3rem;
+				font-size: 3rem;
+				line-height: 5rem;
+			}
+
+			&_image {
+				max-width: 50%;
+				position: absolute;
+				top: 3rem;
+				right: 1rem;
+			}
+		}
+
+		&__steps {
+			max-width: 50%;
+
+		}
+
+		&__step {
+			text-align: left;
+			display: flex;
+			font-size: 2rem;
+			line-height: 2.5rem;
+			padding: 0 .25rem;
+			border-bottom: none;
+			min-height: 7rem;
+
+			&_count {
+				margin: 0;
+				border-bottom: none;
+
+			}
+		}
+
+		&__substep {
+			margin: 0 0 0 1rem;
+
+			&_title {
+				margin: 0;
+				font-size: 1.5rem;
+			}
+		}
+	}
+
+	.conclusion {
+		&__image_box {
+			height: 25rem;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		&__mark {
+			top: 22rem;
+		}
+
+		&__description {
+			margin: 0 0 0 1rem;
+		}
+	}
+
+	.footer {
+		padding: 2rem 1rem;
+
+		&__text {
+			margin: 0 0 3rem ;
+		}
+
+	}
+
+	.social__list {
+		justify-content: center;
+	}
+
+	.social__item {
+		margin: 0 2rem;
+	}
+
+	.mobile__app {
+		justify-content: center;
+
+		&_container {
+			justify-content: center;
+			margin: 0 2rem;
 		}
 	}
 }
