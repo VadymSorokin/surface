@@ -40,11 +40,11 @@ a {
 }
 .header__slogan {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 2rem;
+  line-height: 3rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -133,12 +133,6 @@ a {
   width: 19rem;
   display: block;
   margin: 0 auto;
-}
-.game__step:nth-child(2) {
-  background-color: #f5f4f9;
-}
-.game__step:nth-child(3) {
-  background-color: #e05e47;
 }
 .game__step {
   color: #000000;

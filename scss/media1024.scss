@@ -1,0 +1,61 @@
+@media (min-width: 1024px) {
+	.container {
+		min-width: 1024px;
+		max-width: 1920px;
+		padding: 0 .7rem;
+	}
+
+	.header {
+		&__logotype {
+			width: 12rem;
+			height: 2rem;
+		}
+
+		&__slogan {
+			font-size: 3rem;
+			font-weight: 700;
+			font-style: normal;
+			line-height: 4rem;
+			letter-spacing: 0.25rem;
+
+			&_style {
+				&1 {
+					transform: translate(-15%, 0);
+				}
+
+				&2 {
+					transform: translate(15%, 0);
+				}
+			}
+		}
+
+		&__mobile_app {
+			justify-content: center;
+		}
+
+		&__navigation {
+			margin-right: 2rem;
+			justify-content: flex-end;
+		}
+		&__link{
+			margin-left: 2rem;
+	}
+}
+
+.mobile__app {
+	&_logo {
+		width: 19.43rem;
+		height: 4.81rem;
+		border-radius: 2.4rem;
+	}
+
+	&_container {
+		font-size: 2.5rem;
+	}
+
+	&_text {
+		font-size: 1.2rem;
+	}
+}
+
+}

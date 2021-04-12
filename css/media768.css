@@ -27,16 +27,27 @@
     right: 4rem;
   }
   .game__steps {
-    max-width: 50%;
+    width: 100%;
   }
   .game__step {
     text-align: left;
-    display: flex;
     font-size: 2rem;
     line-height: 2.5rem;
     padding: 0 0.25rem;
     border-bottom: none;
     min-height: 7rem;
+  }
+  .game__step_content {
+    display: flex;
+    width: 100%;
+    min-height: 7rem;
+    padding-bottom: 0.3rem;
+  }
+  .game__step_style_2 {
+    background-color: #f5f4f9;
+  }
+  .game__step_style_3 {
+    background-color: #e05e47;
   }
   .game__step_count {
     margin: 0;
@@ -44,6 +55,7 @@
   }
   .game__substep {
     margin: 0 0 0 1rem;
+    max-width: 50%;
   }
   .game__substep_title {
     margin: 0;

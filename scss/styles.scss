@@ -17,10 +17,12 @@ a {
 	margin: 0 auto;
 	padding: 0 0.2rem;
 }
-.author{
+
+.author {
 	text-align: center;
 	margin-top: 1rem;
 }
+
 .header {
 	background-image: url(../source/footer_background.webp);
 	background-repeat: no-repeat;
@@ -39,11 +41,11 @@ a {
 
 	&__slogan {
 		color: #ffffff;
-		font-size: 32px;
+		font-size: 2rem;
 		font-weight: 700;
 		font-style: normal;
 		letter-spacing: normal;
-		line-height: 2rem;
+		line-height: 3rem;
 		text-transform: uppercase;
 		text-align: center;
 
@@ -150,14 +152,6 @@ a {
 			display: block;
 			margin: 0 auto;
 		}
-	}
-
-	&__step:nth-child(2) {
-		background-color: #f5f4f9;
-	}
-
-	&__step:nth-child(3) {
-		background-color: #e05e47;
 	}
 
 	&__step {
