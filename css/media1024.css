@@ -45,6 +45,9 @@
     font-size: 1.2rem;
   }
 
+  .game {
+    padding-bottom: 0;
+  }
   .game__step_position {
     padding-left: 50%;
   }
@@ -52,5 +55,36 @@
     right: unset;
     left: 6rem;
     top: 4rem;
+  }
+
+  .conclusion__title {
+    padding: 1rem;
+  }
+  .conclusion__text {
+    padding: 0 1rem;
+  }
+  .conclusion__box {
+    display: flex;
+  }
+  .conclusion__box_style {
+    flex-direction: row-reverse;
+  }
+  .conclusion__image_box {
+    flex-basis: 50%;
+    margin: 0;
+  }
+  .conclusion__mark {
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+  }
+  .conclusion__mark_style {
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+  .conclusion__description {
+    flex-basis: 50%;
+    margin: 0;
   }
 }

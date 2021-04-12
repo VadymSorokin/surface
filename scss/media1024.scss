@@ -60,17 +60,58 @@
 	}
 
 	.game {
+		padding-bottom:0 ;
 		&__step {
 			&_position {
 				padding-left: 50%;
 			}
 		}
-		&__block_image_style_1{
+
+		&__block_image_style_1 {
 			right: unset;
 			left: 6rem;
 			top: 4rem;
 		}
 	}
 
+	.conclusion {
+		&__title {
+			padding: 1rem;
+		}
+
+		&__text {
+			padding: 0 1rem;
+		}
+
+		&__box {
+			display: flex;
+
+			&_style {
+				flex-direction: row-reverse;
+			}
+		}
+
+		&__image_box {
+			flex-basis: 50%;
+			margin: 0;
+		}
+
+		&__mark {
+			top: 50%;
+			left: 100%;
+			transform: translate(-50%, -50%);
+
+			&_style {
+				top: 50%;
+				left: 0;
+				transform: translate(-50%, -50%);
+			}
+		}
+
+		&__description {
+			flex-basis: 50%;
+			margin: 0;
+		}
+	}
 
 }
