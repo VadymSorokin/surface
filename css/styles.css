@@ -138,12 +138,12 @@ a {
   text-align: center;
   text-transform: uppercase;
   border-radius: 0.4rem;
-  padding: 0.4rem 0;
+  padding: 0.8rem 0;
 }
 .game__step_count {
   width: min-content;
   border-bottom: 0.125rem solid #5e42b0;
-  margin-left: 45%;
+  margin: 1rem 0 1rem 45%;
 }
 .game__substep_title {
   color: #c1c1c1;
@@ -152,6 +152,7 @@ a {
   font-style: normal;
   line-height: 2.5rem;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 .game__substep_text {
   font-size: 1rem;

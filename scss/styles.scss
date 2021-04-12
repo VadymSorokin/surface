@@ -133,7 +133,7 @@ a {
 		&_image {
 			width: 19rem;
 			display: block;
-			margin:0 auto;
+			margin: 0 auto;
 		}
 	}
 
@@ -155,12 +155,12 @@ a {
 		text-align: center;
 		text-transform: uppercase;
 		border-radius: 0.4rem;
-		padding: 0.4rem 0;
+		padding: 0.8rem 0;
 
 		&_count {
 			width: min-content;
 			border-bottom: 0.125rem solid #5e42b0;
-			margin-left: 45%;
+			margin: 1rem 0 1rem 45%;
 		}
 	}
 
@@ -172,6 +172,7 @@ a {
 			font-style: normal;
 			line-height: 2.5rem;
 			text-transform: uppercase;
+			margin-bottom: 1rem;
 		}
 
 		&_text {
@@ -277,7 +278,8 @@ a {
 		margin-bottom: 4.5rem;
 	}
 }
-.social__list{
+
+.social__list {
 	display: flex;
 	justify-content: space-evenly;
 }
