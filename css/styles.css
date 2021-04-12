@@ -222,6 +222,7 @@ a {
 .footer {
   position: relative;
   background-image: url(../source/Векторный_смарт-объект.webp);
+  background-size: cover;
   padding: 20rem 0 2rem 0;
 }
 .footer__logo {
