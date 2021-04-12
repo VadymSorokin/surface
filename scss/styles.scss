@@ -52,11 +52,11 @@ a {
 
 		&_style {
 			&1 {
-				animation: 'appear-left'2s alternate ease-in-out;
+				animation: 'appear-left'2s alternate ease-out;
 			}
 
 			&2 {
-				animation: 'appear-right'2s alternate ease-in-out;
+				animation: 'appear-right'2.5s alternate ease-out;
 
 			}
 		}

@@ -50,10 +50,10 @@ a {
   position: relative;
 }
 .header__slogan_style1 {
-  animation: "appear-left" 2s alternate ease-in-out;
+  animation: "appear-left" 2s alternate ease-out;
 }
 .header__slogan_style2 {
-  animation: "appear-right" 2s alternate ease-in-out;
+  animation: "appear-right" 2.5s alternate ease-out;
 }
 .header__mobile_app {
   display: flex;
