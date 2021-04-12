@@ -22,6 +22,7 @@ a {
 .header {
   background-image: url(../source/footer_background.webp);
   background-repeat: no-repeat;
+  background-size: cover;
   padding: 2rem 0.1rem 2rem 0.1rem;
 }
 .header__logotype {
@@ -40,6 +41,7 @@ a {
   letter-spacing: normal;
   line-height: 2rem;
   text-transform: uppercase;
+  text-align: center;
 }
 .header__slogan_style1 {
   margin-left: 0.5rem;
@@ -123,6 +125,8 @@ a {
 }
 .game__block_image {
   width: 19rem;
+  display: block;
+  margin: 0 auto;
 }
 .game__step:nth-child(2) {
   background-color: #f5f4f9;
