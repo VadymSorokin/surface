@@ -60,8 +60,15 @@
 	}
 
 	.game {
-		padding-bottom:0 ;
+		padding-bottom: 0;
+
 		&__step {
+			padding: 0;
+
+			&_count {
+				padding-left: .5rem;
+			}
+
 			&_position {
 				padding-left: 50%;
 			}

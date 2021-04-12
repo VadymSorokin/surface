@@ -48,6 +48,12 @@
   .game {
     padding-bottom: 0;
   }
+  .game__step {
+    padding: 0;
+  }
+  .game__step_count {
+    padding-left: 0.5rem;
+  }
   .game__step_position {
     padding-left: 50%;
   }
