@@ -44,4 +44,13 @@
   .mobile__app_text {
     font-size: 1.2rem;
   }
+
+  .game__step_position {
+    padding-left: 50%;
+  }
+  .game__block_image_style_1 {
+    right: unset;
+    left: 6rem;
+    top: 4rem;
+  }
 }
