@@ -54,13 +54,17 @@ a {
   flex-wrap: wrap;
 }
 .header__link {
-  margin: 0 1rem;
   color: #9071ea;
   font-size: 0.8rem;
   font-weight: 300;
   font-style: normal;
   line-height: 1.6rem;
   text-transform: uppercase;
+  padding: 0 0.25rem;
+}
+.header__link:hover {
+  color: cornsilk;
+  box-shadow: 0px 0px 14px 0px rgba(144, 113, 234, 0.2) inset;
 }
 
 .fab {
@@ -68,6 +72,9 @@ a {
   margin-right: 0.6rem;
 }
 
+.mobile__app_container :hover {
+  color: #f8c556 !important;
+}
 .mobile__app_logo {
   display: flex;
   align-items: center;
