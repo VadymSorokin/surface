@@ -47,6 +47,13 @@ a {
   line-height: 3rem;
   text-transform: uppercase;
   text-align: center;
+  position: relative;
+}
+.header__slogan_style1 {
+  animation: "appear-left" 2s alternate ease-in-out;
+}
+.header__slogan_style2 {
+  animation: "appear-right" 2s alternate ease-in-out;
 }
 .header__mobile_app {
   display: flex;

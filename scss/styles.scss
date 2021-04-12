@@ -48,7 +48,18 @@ a {
 		line-height: 3rem;
 		text-transform: uppercase;
 		text-align: center;
+		position: relative;
 
+		&_style {
+			&1 {
+				animation: 'appear-left'2s alternate ease-in-out;
+			}
+
+			&2 {
+				animation: 'appear-right'2s alternate ease-in-out;
+
+			}
+		}
 	}
 
 	&__mobile_app {
