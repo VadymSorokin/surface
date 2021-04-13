@@ -1,1 +1,1 @@
-@keyframes appear-left{from{left:-100rem}to{left:0}}@keyframes appear-right{from{right:-100rem}to{right:0}}
+@keyframes appear-left{from{left:-100rem}to{left:0}}@keyframes appear-right{from{right:-100rem}to{right:0}}@keyframes light{0%{transform:translate(-100%,-25%) rotate(10deg)}100%,20%{transform:translate(100%,-25%) rotate(10deg)}}

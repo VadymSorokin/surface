@@ -66,13 +66,31 @@ a {
   flex-wrap: wrap;
 }
 .header__link {
-  color: #9071ea;
+  margin: 0.1em 0;
+  background: linear-gradient(to right, #3f2c79);
+  border-radius: 1em;
   font-size: 0.8rem;
   font-weight: 300;
   font-style: normal;
   line-height: 1.6rem;
   text-transform: uppercase;
   padding: 0 0.25rem;
+  position: relative;
+  overflow: hidden;
+  transition: 2s ease-in-out;
+}
+.header__link:before {
+  content: "";
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  filter: blur;
+  background: linear-gradient(to left, transparent 0%, #fff 40%, #fff 60%, transparent 100%);
+  transform: translate(-100%, -25%) rotate(10deg);
+  animation: light 6s ease-in-out 3s infinite;
 }
 .header__link:hover {
   color: cornsilk;
