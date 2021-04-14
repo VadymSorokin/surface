@@ -77,8 +77,8 @@ a {
   padding: 0 0.25rem;
   position: relative;
   overflow: hidden;
-  transition: 2s ease-in-out;
-  color: #442c67;
+  transition: 0.5s ease-in-out;
+  color: #a682dc;
 }
 .header__link:before {
   content: "";
